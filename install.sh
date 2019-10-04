@@ -45,5 +45,5 @@ sudo usermod -a -G docker robolab
 # sudo bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda
 
 # NETDATA
-bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+sh install_netdata.sh
 
